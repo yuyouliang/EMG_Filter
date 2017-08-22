@@ -57,7 +57,7 @@ int humFreq = NOTCH_FREQ_50HZ;
 // put on the sensors, and release your muscles;
 // wait a few seconds, and select the max value as the throhold;
 // any value under throhold will be set to zero
-static int Throhold = 200;
+static int Throhold = 0;
 
 unsigned long timeStamp;
 unsigned long timeBudget;
